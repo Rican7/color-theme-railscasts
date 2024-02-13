@@ -106,6 +106,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>PreProcess (Include, Define, Macro)</string>
+        <key>scope</key>
+        <string>meta.preprocessor, meta.preprocessor.macro, entity.name.function.macro, entity.name.constant.preprocessor</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#D0000000</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Number</string>
         <key>scope</key>
         <string>constant.numeric</string>
@@ -169,6 +180,19 @@
           <string>#6B000000</string>
         </dict>
       </dict>
+      <dict>
+        <key>name</key>
+        <string>String interpolation</string>
+        <key>scope</key>
+        <string>constant.character.escaped, constant.character.escape, string source, meta.string, meta.interpolation, variable.other.bracket</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string/>
+          <key>foreground</key>
+          <string>#D0000000</string>
+        </dict>
+      </dict>
       <!-- <dict> -->
       <!--   <key>name</key> -->
       <!--   <string>Library function</string> -->
@@ -219,19 +243,6 @@
           <string>#DD000000</string>
         </dict>
       </dict>
-      <!-- <dict> -->
-      <!--   <key>name</key> -->
-      <!--   <string>String interpolation</string> -->
-      <!--   <key>scope</key> -->
-      <!--   <string>constant.character.escaped, constant.character.escape, string source</string> -->
-      <!--   <key>settings</key> -->
-      <!--   <dict> -->
-      <!--     <key>fontStyle</key> -->
-      <!--     <string/> -->
-      <!--     <key>foreground</key> -->
-      <!--     <string>#519F50</string> -->
-      <!--   </dict> -->
-      <!-- </dict> -->
       <!-- <dict> -->
       <!--   <key>name</key> -->
       <!--   <string>Diff Add</string> -->
